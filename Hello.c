@@ -6,7 +6,7 @@ printf("input \n");
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
-printf("Hello world");
+printf("Hello world \n");
 }
 return 0;
 }
