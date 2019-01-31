@@ -1,14 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int num,count=0;
-printf("input: \n");
-scanf("%d",&num);
-while(num)
-{
-num=num/10;
-count++;
-}
-printf("output:");
-return 0;
+int n,c=0;
+  scanf("%d",&n);
+  while(n>0)
+  {
+    n=n/10;
+    c++;
+  }
+  printf("%d",c);
+  return 0;
 }
