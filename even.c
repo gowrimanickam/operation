@@ -2,11 +2,15 @@
 int main()
 {
 int num;
-  printf("Enter a number \n");
   scanf("%d",&num);
-if(num%2==0)
-printf("Even");
+  if(num>0)
+  {
+if(num%2==1)
+printf("Odd");
 else 
-  printf("Odd");
+  printf("Even");
+  }
+  else
+    printf("invalid");
 return 0;
 }
