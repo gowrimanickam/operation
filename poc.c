@@ -5,6 +5,6 @@ int num;
 if(num>=0)
 printf("positive");
 else
-printf("negative");
+printf("Negative");
 return 0;
 }
