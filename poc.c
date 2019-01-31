@@ -3,7 +3,7 @@ int main()
 {
 int num;
 if(num>=0)
-printf("positive");
+printf("Positive");
 else
 printf("Negative");
 return 0;
