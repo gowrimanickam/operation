@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int num;
-  scanf("%d",&num);
-  if(num>0)
+int n;
+  scanf("%d",&n);
+  if(n>0)
   {
-if(num%2==1)
+if(n%2==1)
 printf("Odd");
 else 
   printf("Even");
