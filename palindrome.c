@@ -10,8 +10,8 @@ r=r+t%10;
 t=t/10;
 }
 if(n==r)
-printf("Yes");
+printf(yes");
 else
-printf("No");
+printf("no");
 return 0;
 }
