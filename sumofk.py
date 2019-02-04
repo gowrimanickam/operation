@@ -6,4 +6,4 @@ arr=raw_input().split()
 for i in range(0,k):
   sum=sum+int(arr[i])
   i+=1
-  print sum
+print sum
