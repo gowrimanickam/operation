@@ -10,7 +10,7 @@ r=r+t%10;
 t=t/10;
 }
 if(n==r)
-printf(yes");
+printf("yes");
 else
 printf("no");
 return 0;
